@@ -1,0 +1,21 @@
+{
+  "name": "hudl_interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests/**/*.js -r dotenv/config --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-url": "^1.0.4",
+    "dotenv": "^16.0.3",
+    "selenium-webdriver": "^4.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
