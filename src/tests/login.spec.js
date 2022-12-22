@@ -11,7 +11,7 @@ const credentials = require('../../credentials.json');
 
 
 
-
+//All of these test cases pass except for the remember me checkbox
 describe('Login', () => {
     let driver;
 
